@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top CV</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/cv.css" />
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <nav>
+      <img src="https://via.placeholder.com/40" alt="Logo" class="logo-img" />
+      <ul class="nav-menu">
+        <li><a href="./home.html" class="nav-link">Trang Chủ</a></li>
+        <li><a href="./nganhnghe.html" class="nav-link">Ngành Nghề</a></li>
+        <li><a href="./camnang.html" class="nav-link">Cẩm Nang</a></li>
+        <li><a href="./lienhe.html" class="nav-link">Liên Hệ</a></li>
+        <li>
+          <a href="./topcv.html" class="nav-link nav-link-topcv">Top CV</a>
+        </li>
+        <li><a href="#" class="nav-link">Đăng Xuất</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="home">
+      <h1>Khám Phá Mẫu CV Chuyên Nghiệp</h1>
+    </section>
+
+    <section class="job-categories" id="cv">
+      <h2>Mẫu CV Đề Xuất, Tham Khảo</h2>
+      <div class="category-container">
+        <div class="job-card" data-modal="modal-short">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="CV Ngắn gọn"
+            class="job-image"
+          />
+          <h3>CV Ngắn gọn</h3>
+        </div>
+        <div class="job-card" data-modal="modal-detailed">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="CV Chi Tiết"
+            class="job-image"
+          />
+          <h3>CV Chi Tiết</h3>
+        </div>
+        <div class="job-card" data-modal="modal-creative">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="CV Sáng Tạo"
+            class="job-image"
+          />
+          <h3>CV Sáng Tạo</h3>
+        </div>
+        <div class="job-card" data-modal="modal-minimal">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="CV Minimal"
+            class="job-image"
+          />
+          <h3>CV Minimal</h3>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal" id="modal-short">
+      <div class="modal-content">
+        <div class="modal-layout">
+          <div class="cv-image">
+            <img
+              src="https://via.placeholder.com/300x500"
+              alt="CV Ngắn gọn"
+              class="cv-full-image"
+            />
+          </div>
+          <div class="cv-details">
+            <div class="modal-details">
+              <h3>Giới thiệu:</h3>
+              <p>
+                Mẫu CV ngắn gọn tập trung vào nội dung cốt lõi, phù hợp với các
+                ngành yêu cầu sự súc tích.
+              </p>
+              <h3>Đối tượng:</h3>
+              <p>Ứng viên mới vào nghề hoặc các vị trí CNTT, kỹ thuật.</p>
+              <h3>Ngành nghề:</h3>
+              <p>Công nghệ thông tin, lập trình, bảo mật.</p>
+            </div>
+            <div class="modal-buttons">
+              <button class="close-btn" onclick="closeModal('modal-short')">
+                Đóng
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-detailed">
+      <div class="modal-content">
+        <div class="modal-layout">
+          <div class="cv-image">
+            <img
+              src="https://via.placeholder.com/300x500"
+              alt="CV Chi Tiết"
+              class="cv-full-image"
+            />
+          </div>
+          <div class="cv-details">
+            <div class="modal-details">
+              <h3>Giới thiệu:</h3>
+              <p>
+                Mẫu CV chi tiết, lý tưởng cho các ngành cần trình bày kinh
+                nghiệm sâu rộng.
+              </p>
+              <h3>Đối tượng:</h3>
+              <p>Chuyên gia tài chính, quản lý cấp trung.</p>
+              <h3>Ngành nghề:</h3>
+              <p>Tài chính, kế toán, ngân hàng.</p>
+            </div>
+            <div class="modal-buttons">
+              <button class="close-btn" onclick="closeModal('modal-detailed')">
+                Đóng
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-creative">
+      <div class="modal-content">
+        <div class="modal-layout">
+          <div class="cv-image">
+            <img
+              src="https://via.placeholder.com/300x500"
+              alt="CV Sáng Tạo"
+              class="cv-full-image"
+            />
+          </div>
+          <div class="cv-details">
+            <div class="modal-details">
+              <h3>Giới thiệu:</h3>
+              <p>
+                Mẫu CV sáng tạo với bố cục màu sắc nổi bật, phù hợp ngành thiết
+                kế.
+              </p>
+              <h3>Đối tượng:</h3>
+              <p>Nhà thiết kế đồ họa, nghệ sĩ sáng tạo.</p>
+              <h3>Ngành nghề:</h3>
+              <p>Thiết kế, quảng cáo, nghệ thuật số.</p>
+            </div>
+            <div class="modal-buttons">
+              <button class="close-btn" onclick="closeModal('modal-creative')">
+                Đóng
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-minimal">
+      <div class="modal-content">
+        <div class="modal-layout">
+          <div class="cv-image">
+            <img
+              src="https://via.placeholder.com/300x500"
+              alt="CV Minimal"
+              class="cv-full-image"
+            />
+          </div>
+          <div class="cv-details">
+            <div class="modal-details">
+              <h3>Giới thiệu:</h3>
+              <p>Mẫu CV tối giản, chuyên nghiệp cho các ngành kinh doanh.</p>
+              <h3>Đối tượng:</h3>
+              <p>Nhân viên kinh doanh, quản lý dự án.</p>
+              <h3>Ngành nghề:</h3>
+              <p>Kinh doanh, quản lý, tiếp thị.</p>
+            </div>
+            <div class="modal-buttons">
+              <button class="close-btn" onclick="closeModal('modal-minimal')">
+                Đóng
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="why-choose-us" id="guide">
+      <h2>Cách Xây Dựng Hồ Sơ Đạt Chuẩn</h2>
+      <div class="reasons-container">
+        <div class="reason-card" style="--order: 0">
+          <i class="fas fa-bullseye"></i>
+          <h3>Viết Mục Tiêu Rõ Ràng</h3>
+          <p>
+            Định nghĩa rõ mục tiêu nghề nghiệp để nhà tuyển dụng hiểu bạn phù
+            hợp với vị trí nào.
+          </p>
+        </div>
+        <div class="reason-card" style="--order: 1">
+          <i class="fas fa-chart-line"></i>
+          <h3>Định Lượng Thành Tích</h3>
+          <p>
+            Sử dụng số liệu cụ thể (VD: tăng 20% doanh số) để chứng minh năng
+            lực.
+          </p>
+        </div>
+        <div class="reason-card" style="--order: 2">
+          <i class="fas fa-edit"></i>
+          <h3>Tùy Chỉnh Theo Vị Trí</h3>
+          <p>
+            Thích nghi nội dung CV với yêu cầu công việc cụ thể của từng vị trí.
+          </p>
+        </div>
+        <div class="reason-card" style="--order: 3">
+          <i class="fas fa-check-circle"></i>
+          <h3>Kiểm Tra Lỗi</h3>
+          <p>
+            Đảm bảo CV không có lỗi chính tả hoặc định dạng để tạo ấn tượng tốt.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="footer-content">
+        <div class="footer-left">
+          <h4>Liên Hệ</h4>
+          <p>SĐT: +84 123 456 789</p>
+          <p>Địa chỉ: 123 Đường Láng, Hà Nội, Việt Nam</p>
+        </div>
+        <div class="footer-center">
+          <h4>Liên Hệ Với Chúng Tôi</h4>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-right">
+          <h4>Liên Kết Nhanh</h4>
+          <div class="quick-links">
+            <a href="./home.html">Trang Chủ</a>
+            <a href="./nganhnghe.html">Công Việc</a>
+            <a href="./camnang.html">Cẩm Nang</a>
+            <a href="./topcv.html">Top cv</a>
+            <a href="./lienhe.html">Liên Hệ</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/cv.js"></script>
+  </body>
+</html>

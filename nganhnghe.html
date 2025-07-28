@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ngành Nghề</title>
+    <link rel="stylesheet" href="./css/nganhnghe.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+
+    <nav>
+      <img src="logo.png" alt="Logo" class="logo-img" />
+      <ul class="nav-menu">
+        <li><a href="home.html" class="nav-link">Trang Chủ</a></li>
+        <li><a href="nganhnghe.html" class="nav-link active">Ngành Nghề</a></li>
+        <li><a href="camnang.html" class="nav-link">Cẩm Nang</a></li>
+        <li><a href="lienhe.html" class="nav-link">Liên Hệ</a></li>
+        <li><a href="topcv.html" class="nav-link">Top CV</a></li>
+        <li><a href="#" class="logout-btn">Đăng Xuất</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="industries">
+      <h1>Khám Phá Cơ Hội Ngành Công Nghệ</h1>
+      <div class="search-container">
+        <label for="searchInput" class="search-label">Tìm kiếm:</label>
+        <input type="text" id="searchInput" placeholder="Nhập tên ngành..." />
+        <button class="reset-btn">Load lại</button>
+        <div id="suggestions" class="suggestions"></div>
+      </div>
+    </section>
+
+    <section class="industries-section">
+      <div class="industry-group">
+        <h2>Công Nghệ Phần Mềm</h2>
+        <div class="industry-cards">
+          <div class="industry-card">
+            <i class="fas fa-laptop-code industry-icon"></i>
+            <h3>Phát Triển Ứng Dụng Web</h3>
+            <div class="industry-info">
+              Địa điểm: Hà Nội | Mức lương: 15-20 triệu | Thưởng: 2 tháng lương
+            </div>
+            <a href="#" class="details-btn" data-modal="web-development"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-desktop industry-icon"></i>
+            <h3>Phát Triển Ứng Dụng Desktop</h3>
+            <div class="industry-info">
+              Địa điểm: TP.HCM | Mức lương: 18-25 triệu | Thưởng: 3 tháng lương
+            </div>
+            <a href="#" class="details-btn" data-modal="desktop-development"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-microchip industry-icon"></i>
+            <h3>Kỹ Thuật Phần Mềm Nhúng</h3>
+            <div class="industry-info">
+              Địa điểm: Đà Nẵng | Mức lương: 20-30 triệu | Thưởng: 2.5 tháng
+              lương
+            </div>
+            <a href="#" class="details-btn" data-modal="embedded-software"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-tools industry-icon"></i>
+            <h3>Bảo Trì Phần Mềm</h3>
+            <div class="industry-info">
+              Địa điểm: Cần Thơ | Mức lương: 12-18 triệu | Thưởng: 2 tháng lương
+            </div>
+            <a href="#" class="details-btn" data-modal="software-maintenance"
+              >Chi Tiết</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="industry-group">
+        <h2>Thiết Kế Sáng Tạo</h2>
+        <div class="industry-cards">
+          <div class="industry-card">
+            <i class="fas fa-paint-brush industry-icon"></i>
+            <h3>Thiết Kế Đồ Họa</h3>
+            <div class="industry-info">
+              Địa điểm: Hà Nội | Mức lương: 10-15 triệu | Thưởng: 1.5 tháng
+              lương
+            </div>
+            <a href="#" class="details-btn" data-modal="graphic-design"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-mobile-alt industry-icon"></i>
+            <h3>Thiết Kế UI/UX</h3>
+            <div class="industry-info">
+              Địa điểm: TP.HCM | Mức lương: 12-18 triệu | Thưởng: 2 tháng lương
+            </div>
+            <a href="#" class="details-btn" data-modal="ui-ux-design"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-video industry-icon"></i>
+            <h3>Thiết Kế Motion Graphics</h3>
+            <div class="industry-info">
+              Địa điểm: Đà Nẵng | Mức lương: 15-20 triệu | Thưởng: 2.5 tháng
+              lương
+            </div>
+            <a href="#" class="details-btn" data-modal="motion-graphics"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-cube industry-icon"></i>
+            <h3>Thiết Kế 3D</h3>
+            <div class="industry-info">
+              Địa điểm: Cần Thơ | Mức lương: 18-25 triệu | Thưởng: 3 tháng lương
+            </div>
+            <a href="#" class="details-btn" data-modal="3d-design">Chi Tiết</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="industry-group">
+        <h2>Khoa Học Dữ Liệu</h2>
+        <div class="industry-cards">
+          <div class="industry-card">
+            <i class="fas fa-chart-bar industry-icon"></i>
+            <h3>Phân Tích Dữ Liệu</h3>
+            <div class="industry-info">
+              Địa điểm: Hà Nội | Mức lương: 20-30 triệu | Thưởng: 2 tháng lương
+            </div>
+            <a href="#" class="details-btn" data-modal="data-analysis"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-brain industry-icon"></i>
+            <h3>Học Máy (Machine Learning)</h3>
+            <div class="industry-info">
+              Địa điểm: TP.HCM | Mức lương: 25-35 triệu | Thưởng: 3 tháng lương
+            </div>
+            <a href="#" class="details-btn" data-modal="machine-learning"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-robot industry-icon"></i>
+            <h3>Trí Tuệ Nhân Tạo (AI)</h3>
+            <div class="industry-info">
+              Địa điểm: Đà Nẵng | Mức lương: 30-40 triệu | Thưởng: 3.5 tháng
+              lương
+            </div>
+            <a href="#" class="details-btn" data-modal="ai">Chi Tiết</a>
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-database industry-icon"></i>
+            <h3>Quản Lý Dữ Liệu</h3>
+            <div class="industry-info">
+              Địa điểm: Cần Thơ | Mức lương: 15-22 triệu | Thưởng: 2 tháng lương
+            </div>
+            <a href="#" class="details-btn" data-modal="data-management"
+              >Chi Tiết</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="industry-group">
+        <h2>Phát Triển Di Động</h2>
+        <div class="industry-cards">
+          <div class="industry-card">
+            <i class="fab fa-apple industry-icon"></i>
+            <h3>Lập Trình iOS</h3>
+            <div class="industry-info">
+              Địa điểm: Hà Nội | Mức lương: 18-25 triệu | Thưởng: 2.5 tháng
+              lương
+            </div>
+            <a href="#" class="details-btn" data-modal="ios-development"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fab fa-android industry-icon"></i>
+            <h3>Lập Trình Android</h3>
+            <div class="industry-info">
+              Địa điểm: TP.HCM | Mức lương: 15-22 triệu | Thưởng: 2 tháng lương
+            </div>
+            <a href="#" class="details-btn" data-modal="android-development"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-mobile-alt industry-icon"></i>
+            <h3>Lập Trình Ứng Dụng Đa Nền Tảng</h3>
+            <div class="industry-info">
+              Địa điểm: Đà Nẵng | Mức lương: 20-28 triệu | Thưởng: 3 tháng lương
+            </div>
+            <a
+              href="#"
+              class="details-btn"
+              data-modal="cross-platform-development"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-gamepad industry-icon"></i>
+            <h3>Phát Triển Game Di Động</h3>
+            <div class="industry-info">
+              Địa điểm: Hải Phòng | Mức lương: 20-30 triệu | Thưởng: 3 tháng
+              lương
+            </div>
+            <a href="#" class="details-btn" data-modal="mobile-game-development"
+              >Chi Tiết</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="industry-group">
+        <h2>Phát Triển Toàn Diện</h2>
+        <div class="industry-cards">
+          <div class="industry-card">
+            <i class="fas fa-code industry-icon"></i>
+            <h3>Full-stack Web Development</h3>
+            <div class="industry-info">
+              Địa điểm: Hà Nội | Mức lương: 20-30 triệu | Thưởng: 2.5 tháng
+              lương
+            </div>
+            <a href="#" class="details-btn" data-modal="full-stack-development"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-server industry-icon"></i>
+            <h3>DevOps</h3>
+            <div class="industry-info">
+              Địa điểm: TP.HCM | Mức lương: 25-35 triệu | Thưởng: 3 tháng lương
+            </div>
+            <a href="#" class="details-btn" data-modal="devops">Chi Tiết</a>
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-sitemap industry-icon"></i>
+            <h3>Kiến Trúc Phần Mềm</h3>
+            <div class="industry-info">
+              Địa điểm: Đà Nẵng | Mức lương: 30-40 triệu | Thưởng: 3.5 tháng
+              lương
+            </div>
+            <a href="#" class="details-btn" data-modal="software-architecture"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-tasks industry-icon"></i>
+            <h3>Quản Lý Dự Án Phần Mềm</h3>
+            <div class="industry-info">
+              Địa điểm: Cần Thơ | Mức lương: 15-22 triệu | Thưởng: 2 tháng lương
+            </div>
+            <a
+              href="#"
+              class="details-btn"
+              data-modal="software-project-management"
+              >Chi Tiết</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="industry-group">
+        <h2>Y Tế Công Nghệ</h2>
+        <div class="industry-cards">
+          <div class="industry-card">
+            <i class="fas fa-laptop-medical industry-icon"></i>
+            <h3>Phát Triển Phần Mềm Y Tế</h3>
+            <div class="industry-info">
+              Địa điểm: Hà Nội | Mức lương: 18-25 triệu | Thưởng: 2.5 tháng
+              lương
+            </div>
+            <a href="#" class="details-btn" data-modal="healthcare-software"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-dna industry-icon"></i>
+            <h3>Phân Tích Dữ Liệu Y Sinh</h3>
+            <div class="industry-info">
+              Địa điểm: TP.HCM | Mức lương: 20-30 triệu | Thưởng: 3 tháng lương
+            </div>
+            <a
+              href="#"
+              class="details-btn"
+              data-modal="biomedical-data-analysis"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-heartbeat industry-icon"></i>
+            <h3>Thiết Bị Y Tế Thông Minh</h3>
+            <div class="industry-info">
+              Địa điểm: Đà Nẵng | Mức lương: 25-35 triệu | Thưởng: 3.5 tháng
+              lương
+            </div>
+            <a href="#" class="details-btn" data-modal="smart-medical-devices"
+              >Chi Tiết</a
+            >
+          </div>
+          <div class="industry-card">
+            <i class="fas fa-stethoscope industry-icon"></i>
+            <h3>Tư Vấn Công Nghệ Y Tế</h3>
+            <div class="industry-info">
+              Địa điểm: Cần Thơ | Mức lương: 15-20 triệu | Thưởng: 2 tháng lương
+            </div>
+            <a href="#" class="details-btn" data-modal="healthcare-consulting"
+              >Chi Tiết</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal-container" id="modal-container-web-development">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Phát Triển Ứng Dụng Web</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, có kinh nghiệm 1-2
+              năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo JavaScript, HTML, CSS, kinh
+              nghiệm với React hoặc Node.js.
+            </p>
+            <p><strong>Địa chỉ:</strong> Hà Nội</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="web-development"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/web.jpg" alt="Phát Triển Ứng Dụng Web" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button class="close-btn" onclick="closeModals('web-development')">
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-desktop-development">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Phát Triển Ứng Dụng Desktop</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 2-3
+              năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo C#, Java hoặc C++, hiểu về
+              Windows hoặc macOS.
+            </p>
+            <p><strong>Địa chỉ:</strong> TP.HCM</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="desktop-development"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/desktop.jpg" alt="Phát Triển Ứng Dụng Desktop" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button
+            class="close-btn"
+            onclick="closeModals('desktop-development')"
+          >
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-embedded-software">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Kỹ Thuật Phần Mềm Nhúng</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH Kỹ thuật, kinh nghiệm 3
+              năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo C/C++, kiến thức về RTOS và
+              giao thức IoT.
+            </p>
+            <p><strong>Địa chỉ:</strong> Đà Nẵng</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="embedded-software"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/nhung.jpg" alt="Kỹ Thuật Phần Mềm Nhúng" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button class="close-btn" onclick="closeModals('embedded-software')">
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-software-maintenance">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Bảo Trì Phần Mềm</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 1 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Kinh nghiệm bảo trì, kỹ năng debug và
+              hiểu biết cơ bản về mã nguồn.
+            </p>
+            <p><strong>Địa chỉ:</strong> Cần Thơ</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="software-maintenance"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/baotri.jpg" alt="Bảo Trì Phần Mềm" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button
+            class="close-btn"
+            onclick="closeModals('software-maintenance')"
+          >
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-graphic-design">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Thiết Kế Đồ Họa</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH Mỹ thuật hoặc CNTT liên
+              quan, kinh nghiệm 1-2 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo Photoshop, Illustrator, hiểu
+              biết cơ bản về UI/UX.
+            </p>
+            <p><strong>Địa chỉ:</strong> Hà Nội</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="graphic-design"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/dohoa.jpg " alt="Thiết Kế Đồ Họa" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button class="close-btn" onclick="closeModals('graphic-design')">
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-ui-ux-design">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Thiết Kế UI/UX</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT hoặc Mỹ thuật, kinh
+              nghiệm 2 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo Figma, Sketch, khả năng
+              nghiên cứu người dùng.
+            </p>
+            <p><strong>Địa chỉ:</strong> TP.HCM</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="ui-ux-design"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/ux,ui.jpg" alt="Thiết Kế UI/UX" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button class="close-btn" onclick="closeModals('ui-ux-design')">
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-motion-graphics">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Thiết Kế Motion Graphics</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH Mỹ thuật, kinh nghiệm
+              2-3 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo After Effects, hiểu về hoạt
+              hình 2D/3D.
+            </p>
+            <p><strong>Địa chỉ:</strong> Đà Nẵng</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="motion-graphics"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/graphics.jpg" alt="Thiết Kế Motion Graphics" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button class="close-btn" onclick="closeModals('motion-graphics')">
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-3d-design">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Thiết Kế 3D</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH Mỹ thuật, kinh nghiệm 3
+              năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo Blender, Maya, kỹ năng dựng
+              mô hình 3D.
+            </p>
+            <p><strong>Địa chỉ:</strong> Cần Thơ</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="3d-design"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/3d.jpg" alt="Thiết Kế 3D" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button class="close-btn" onclick="closeModals('3d-design')">
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-data-analysis">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Phân Tích Dữ Liệu</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT hoặc Toán, kinh
+              nghiệm 2 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo Python, SQL, khả năng phân
+              tích thống kê.
+            </p>
+            <p><strong>Địa chỉ:</strong> Hà Nội</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="data-analysis"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/ptdl.jpg" alt="Phân Tích Dữ Liệu" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button class="close-btn" onclick="closeModals('data-analysis')">
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-machine-learning">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Machine Learning</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 3 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo TensorFlow, hiểu về thuật
+              toán học máy.
+            </p>
+            <p><strong>Địa chỉ:</strong> TP.HCM</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="machine-learning"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img
+              src="./img/machinelearning.jpg"
+              alt="Học Máy (Machine Learning)"
+            />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button class="close-btn" onclick="closeModals('machine-learning')">
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-ai">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Trí Tuệ Nhân Tạo (AI)</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 4 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Hiểu sâu về NLP, mạng nơ-ron, và AI ứng
+              dụng.
+            </p>
+            <p><strong>Địa chỉ:</strong> Đà Nẵng</p>
+            <div class="favorite-container">
+              <i class="fas fa-heart favorite-icon" data-industry="ai"></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/ai.jpg" alt="Trí Tuệ Nhân Tạo (AI)" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button class="close-btn" onclick="closeModals('ai')">Đóng</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-data-management">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Quản Lý Dữ Liệu</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 2 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo SQL, NoSQL, quản lý cơ sở dữ
+              liệu lớn.
+            </p>
+            <p><strong>Địa chỉ:</strong> Cần Thơ</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="data-management"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/sql.jpg" alt="Quản Lý Dữ Liệu" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button class="close-btn" onclick="closeModals('data-management')">
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-ios-development">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Lập Trình iOS</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 2-3
+              năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo Swift, hiểu về iOS SDK và
+              Xcode.
+            </p>
+            <p><strong>Địa chỉ:</strong> Hà Nội</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="ios-development"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/ios.jpg" alt="Lập Trình iOS" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button class="close-btn" onclick="closeModals('ios-development')">
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-android-development">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Lập Trình Android</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 2 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo Kotlin, hiểu về Android
+              Studio.
+            </p>
+            <p><strong>Địa chỉ:</strong> TP.HCM</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="android-development"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/android.jpg" alt="Lập Trình Android" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button
+            class="close-btn"
+            onclick="closeModals('android-development')"
+          >
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal-container"
+      id="modal-container-cross-platform-development"
+    >
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Lập Trình Ứng Dụng Đa Nền Tảng</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 3 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Hiểu về Flutter/React Native, tích hợp
+              API.
+            </p>
+            <p><strong>Địa chỉ:</strong> Đà Nẵng</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="cross-platform-development"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img
+              src="./img/danentang.jpg"
+              alt="Lập Trình Ứng Dụng Đa Nền Tảng"
+            />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button
+            class="close-btn"
+            onclick="closeModals('cross-platform-development')"
+          >
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-mobile-game-development">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Phát Triển Game Di Động</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 3 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo Unity, Cocos2d-x, thiết kế
+              trò chơi.
+            </p>
+            <p><strong>Địa chỉ:</strong> Hải Phòng</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="mobile-game-development"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/gamedidong.jpg" alt="Phát Triển Game Di Động" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button
+            class="close-btn"
+            onclick="closeModals('mobile-game-development')"
+          >
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-full-stack-development">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Full-stack</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 3-4
+              năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo React, Node.js, hiểu về cơ sở
+              dữ liệu.
+            </p>
+            <p><strong>Địa chỉ:</strong> Hà Nội</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="full-stack-development"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/fullstack.jpg" alt="Full-stack Web Development" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button
+            class="close-btn"
+            onclick="closeModals('full-stack-development')"
+          >
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-devops">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>DevOps</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 4 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo Docker, Kubernetes, CI/CD
+              pipeline.
+            </p>
+            <p><strong>Địa chỉ:</strong> TP.HCM</p>
+            <div class="favorite-container">
+              <i class="fas fa-heart favorite-icon" data-industry="devops"></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/devops.webp" alt="DevOps" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button class="close-btn" onclick="closeModals('devops')">
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-software-architecture">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Kiến Trúc Phần Mềm</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 5 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Hiểu về microservices, thiết kế hệ thống
+              lớn.
+            </p>
+            <p><strong>Địa chỉ:</strong> Đà Nẵng</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="software-architecture"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/ktrucpmem.jpg" alt="Kiến Trúc Phần Mềm" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button
+            class="close-btn"
+            onclick="closeModals('software-architecture')"
+          >
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal-container"
+      id="modal-container-software-project-management"
+    >
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Quản Lý Dự Án Phần Mềm</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 3 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Kinh nghiệm Agile/Scrum, quản lý đội
+              nhóm.
+            </p>
+            <p><strong>Địa chỉ:</strong> Cần Thơ</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="software-project-management"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/duanpm.jpg" alt="Quản Lý Dự Án Phần Mềm" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button
+            class="close-btn"
+            onclick="closeModals('software-project-management')"
+          >
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-healthcare-software">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Phát Triển Phần Mềm Y Tế</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 2-3
+              năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo Java, hiểu về quy định y tế.
+            </p>
+            <p><strong>Địa chỉ:</strong> Hà Nội</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="healthcare-software"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/yte.jpg" alt="Phát Triển Phần Mềm Y Tế" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button
+            class="close-btn"
+            onclick="closeModals('healthcare-software')"
+          >
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-biomedical-data-analysis">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Phân Tích Dữ Liệu Y Sinh</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT/Toán, kinh nghiệm 3
+              năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo Python, kiến thức sinh học cơ
+              bản.
+            </p>
+            <p><strong>Địa chỉ:</strong> TP.HCM</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="biomedical-data-analysis"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/ysinh.jpg" alt="Phân Tích Dữ Liệu Y Sinh" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button
+            class="close-btn"
+            onclick="closeModals('biomedical-data-analysis')"
+          >
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-smart-medical-devices">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Thiết Bị Y Tế Thông Minh</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH Kỹ thuật, kinh nghiệm 4
+              năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Thành thạo C/C++, thiết kế phần cứng
+              nhúng.
+            </p>
+            <p><strong>Địa chỉ:</strong> Đà Nẵng</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="smart-medical-devices"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="./img/ytetm.jpg" alt="Thiết Bị Y Tế Thông Minh" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button
+            class="close-btn"
+            onclick="closeModals('smart-medical-devices')"
+          >
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container" id="modal-container-healthcare-consulting">
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-details">
+            <h2>Ai trong y học</h2>
+            <p>
+              <strong>Điều kiện:</strong> Tốt nghiệp ĐH CNTT, kinh nghiệm 2 năm.
+            </p>
+            <p>
+              <strong>Yêu cầu:</strong> Kinh nghiệm tư vấn y tế, hiểu về công
+              nghệ y tế.
+            </p>
+            <p><strong>Địa chỉ:</strong> Cần Thơ</p>
+            <div class="favorite-container">
+              <i
+                class="fas fa-heart favorite-icon"
+                data-industry="healthcare-consulting"
+              ></i>
+            </div>
+          </div>
+          <div class="modal-image">
+            <img src="img/aitrongyhoc.jpg" alt="Tư Vấn Công Nghệ Y Tế" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="contact-btn">Liên Hệ</a>
+          <button
+            class="close-btn"
+            onclick="closeModals('healthcare-consulting')"
+          >
+            Đóng
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <section class="favorites-section">
+      <h2>Yêu Thích</h2>
+      <button class="clear-favorites-btn" onclick="clearFavorites()">
+        Xoá Tất Cả
+      </button>
+      <div class="favorites-list" id="favorites-list"></div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-left">
+          <h4>Liên Hệ</h4>
+          <p>SĐT: +84 123 456 789</p>
+          <p>Địa chỉ: 123 Đường Láng, Hà Nội, Việt Nam</p>
+        </div>
+        <div class="footer-center">
+          <h4>Liên Hệ Với Chúng Tôi</h4>
+          <div class="social-icons">
+            <a href="#" class="social-icon"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-right">
+          <h4>Liên Kết Nhanh</h4>
+          <div class="quick-links">
+            <a href="./home.html">Trang Chủ</a>
+            <a href="./nganhnghe.html">Công Việc</a>
+            <a href="./camnang.html">Cẩm Nang</a>
+            <a href="./topcv.html">Top cv</a>
+            <a href="./lienhe.html">Liên Hệ</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./js/nganhnghe.js"></script>
+  </body>
+</html>

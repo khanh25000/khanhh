@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+
+    <nav>
+      <img src="logo.png" alt="Logo" class="logo-img" />
+      <ul class="nav-menu">
+        <li><a href="home.html" class="nav-link active">Trang Chủ</a></li>
+        <li><a href="nganhnghe.html" class="nav-link">Ngành Nghề</a></li>
+        <li><a href="camnang.html" class="nav-link">Cẩm Nang</a></li>
+        <li><a href="lienhe.html" class="nav-link">Liên Hệ</a></li>
+        <li><a href="topcv.html" class="nav-link">Top CV</a></li>
+        <li><a href="#" class="logout-btn">Đăng Xuất</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="home">
+      <h1>Khám Phá Cơ Hội Nghề Nghiệp</h1>
+    </section>
+
+    <section class="job-categories">
+      <h2>Ngành Nghề Hot Năm 2025</h2>
+      <div class="category-container">
+        <div class="job-card">
+          <div class="image-container">
+            <img
+              src="./img/cntt.jpg"
+              alt="Công Nghệ Thông Tin"
+              class="job-image"
+            />
+          </div>
+          <h3>Công Nghệ Thông Tin</h3>
+          <p class="job-salary">Mức lương: $80k - $160k</p>
+          <p class="job-location">Địa điểm: Làm việc từ xa</p>
+          <a href="#" class="details-btn" data-modal="modal-it">Giới Thiệu</a>
+        </div>
+        <div class="job-card">
+          <div class="image-container">
+            <img
+              src="./img/dohoa.jpg"
+              alt="Thiết Kế Đồ Họa"
+              class="job-image"
+            />
+          </div>
+          <h3>Thiết Kế Đồ Họa</h3>
+          <p class="job-salary">Mức lương: $70k - $120k</p>
+          <p class="job-location">Địa điểm: TP. Hồ Chí Minh</p>
+          <a href="#" class="details-btn" data-modal="modal-design"
+            >Giới Thiệu</a
+          >
+        </div>
+        <div class="job-card">
+          <div class="image-container">
+            <img
+              src="./img/khdl.jpg"
+              alt="Khoa Học Dữ Liệu"
+              class="job-image"
+            />
+          </div>
+          <h3>Khoa Học Dữ Liệu</h3>
+          <p class="job-salary">Mức lương: $100k - $160k</p>
+          <p class="job-location">Địa điểm: Đà Nẵng</p>
+          <a href="#" class="details-btn" data-modal="modal-data-science"
+            >Giới Thiệu</a
+          >
+        </div>
+        <div class="job-card">
+          <div class="image-container">
+            <img
+              src="./img/anninhmang.jpg"
+              alt="An Ninh Mạng"
+              class="job-image"
+            />
+          </div>
+          <h3>An Ninh Mạng</h3>
+          <p class="job-salary">Mức lương: $90k - $150k</p>
+          <p class="job-location">Địa điểm: Hà Nội</p>
+          <a href="#" class="details-btn" data-modal="modal-cybersecurity"
+            >Giới Thiệu</a
+          >
+        </div>
+        <div class="job-card">
+          <div class="image-container">
+            <img src="./img/mkt.jpg" alt="Marketing" class="job-image" />
+          </div>
+          <h3>Marketing</h3>
+          <p class="job-salary">Mức lương: $90k - $150k</p>
+          <p class="job-location">Địa điểm: Hà Nội</p>
+          <a href="#" class="details-btn" data-modal="modal-marketing"
+            >Giới Thiệu</a
+          >
+        </div>
+        <div class="job-card">
+          <div class="image-container">
+            <img src="./img/yte.jpg" alt="Y Tế" class="job-image" />
+          </div>
+          <h3>Y Tế</h3>
+          <p class="job-salary">Mức lương: $90k - $150k</p>
+          <p class="job-location">Địa điểm: Hà Nội</p>
+          <a href="#" class="details-btn" data-modal="modal-healthcare"
+            >Giới Thiệu</a
+          >
+        </div>
+        <div class="job-card">
+          <div class="image-container">
+            <img src="./img/logistics.jpg" alt="Logistics" class="job-image" />
+          </div>
+          <h3>Logistics</h3>
+          <p class="job-salary">Mức lương: $85k - $140k</p>
+          <p class="job-location">Địa điểm: Làm việc từ xa</p>
+          <a href="#" class="details-btn" data-modal="modal-logistics"
+            >Giới Thiệu</a
+          >
+        </div>
+        <div class="job-card">
+          <div class="image-container">
+            <img src="./img/game.jpg" alt="Game" class="job-image" />
+          </div>
+          <h3>Game</h3>
+          <p class="job-salary">Mức lương: $95k - $145k</p>
+          <p class="job-location">Địa điểm: Hà Nội</p>
+          <a href="#" class="details-btn" data-modal="modal-game">Giới Thiệu</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="top-companies">
+      <h2>Các Công Ty Hàng Đầu</h2>
+      <div class="company-container">
+        <div class="company-card">
+          <div class="image-container">
+            <img src="./img/gg.jpg" alt="Google" class="company-image" />
+          </div>
+          <h3>Google</h3>
+          <p class="company-sector">Công Nghệ Thông Tin</p>
+        </div>
+        <div class="company-card">
+          <div class="image-container">
+            <img src="./img/microsoft.jpg" alt="Adobe" class="company-image" />
+          </div>
+          <h3>Microsoft</h3>
+          <p class="company-sector">Phần mềm, AI</p>
+        </div>
+        <div class="company-card">
+          <div class="image-container">
+            <img src="./img/apple.jpg" alt="IBM" class="company-image" />
+          </div>
+          <h3>Apple</h3>
+          <p class="company-sector">Thiết bị tiêu dùng & AI</p>
+        </div>
+        <div class="company-card">
+          <div class="image-container">
+            <img src="./img/amazon.jpg" alt="Microsoft" class="company-image" />
+          </div>
+          <h3>Amazon</h3>
+          <p class="company-sector">Thương mại & Cloud</p>
+        </div>
+        <div class="company-card">
+          <div class="image-container">
+            <img src="./img/nvidia.jpg" alt="Cisco" class="company-image" />
+          </div>
+          <h3>NVIDIA</h3>
+          <p class="company-sector">Chip & AI</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal" id="modal-it">
+      <div class="modal-content">
+        <div class="modal-details">
+          <h2>Công Nghệ Thông Tin</h2>
+          <p class="modal-requirements">
+            Ngành Công Nghệ Thông Tin tập trung vào phát triển và quản lý các hệ
+            thống công nghệ, bao gồm lập trình, mạng, và bảo mật.
+          </p>
+          <div class="modal-buttons">
+            <button class="detail-btn" onclick="showDetails('modal-it')">
+              Chi Tiết
+            </button>
+            <button class="close-btn" onclick="closeModal('modal-it')">
+              Đóng
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-design">
+      <div class="modal-content">
+        <div class="modal-details">
+          <h2>Thiết Kế Đồ Họa</h2>
+          <p class="modal-requirements">
+            Ngành Thiết Kế tập trung vào sáng tạo giao diện và trải nghiệm người
+            dùng thông qua các công cụ đồ họa và kỹ thuật số.
+          </p>
+          <div class="modal-buttons">
+            <button class="detail-btn" onclick="showDetails('modal-design')">
+              Chi Tiết
+            </button>
+            <button class="close-btn" onclick="closeModal('modal-design')">
+              Đóng
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-data-science">
+      <div class="modal-content">
+        <div class="modal-details">
+          <h2>Khoa Học Dữ Liệu</h2>
+          <p class="modal-requirements">
+            Ngành Khoa Học Dữ Liệu tập trung vào phân tích và xử lý dữ liệu lớn
+            để hỗ trợ ra quyết định kinh doanh.
+          </p>
+          <div class="modal-buttons">
+            <button
+              class="detail-btn"
+              onclick="showDetails('modal-data-science')"
+            >
+              Chi Tiết
+            </button>
+            <button
+              class="close-btn"
+              onclick="closeModal('modal-data-science')"
+            >
+              Đóng
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-cybersecurity">
+      <div class="modal-content">
+        <div class="modal-details">
+          <h2>An Ninh Mạng</h2>
+          <p class="modal-requirements">
+            Ngành An Ninh Mạng tập trung vào bảo vệ hệ thống và dữ liệu khỏi các
+            mối đe dọa an ninh mạng.
+          </p>
+          <div class="modal-buttons">
+            <button
+              class="detail-btn"
+              onclick="showDetails('modal-cybersecurity')"
+            >
+              Chi Tiết
+            </button>
+            <button
+              class="close-btn"
+              onclick="closeModal('modal-cybersecurity')"
+            >
+              Đóng
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-marketing">
+      <div class="modal-content">
+        <div class="modal-details">
+          <h2>Marketing</h2>
+          <p class="modal-requirements">
+            Ngành Marketing tập trung vào việc xây dựng chiến lược quảng bá sản
+            phẩm và dịch vụ để thu hút khách hàng.
+          </p>
+          <div class="modal-buttons">
+            <button class="detail-btn" onclick="showDetails('modal-marketing')">
+              Chi Tiết
+            </button>
+            <button class="close-btn" onclick="closeModal('modal-marketing')">
+              Đóng
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-healthcare">
+      <div class="modal-content">
+        <div class="modal-details">
+          <h2>Y Tế</h2>
+          <p class="modal-requirements">
+            Ngành Y Tế tập trung vào chăm sóc sức khỏe, chẩn đoán và điều trị
+            bệnh, cùng với nghiên cứu y học.
+          </p>
+          <div class="modal-buttons">
+            <button
+              class="detail-btn"
+              onclick="showDetails('modal-healthcare')"
+            >
+              Chi Tiết
+            </button>
+            <button class="close-btn" onclick="closeModal('modal-healthcare')">
+              Đóng
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-logistics">
+      <div class="modal-content">
+        <div class="modal-details">
+          <h2>Logistics</h2>
+          <p class="modal-requirements">
+            Ngành Logistics tập trung vào quản lý chuỗi cung ứng, vận chuyển và
+            lưu kho hàng hóa.
+          </p>
+          <div class="modal-buttons">
+            <button class="detail-btn" onclick="showDetails('modal-logistics')">
+              Chi Tiết
+            </button>
+            <button class="close-btn" onclick="closeModal('modal-logistics')">
+              Đóng
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-game">
+      <div class="modal-content">
+        <div class="modal-details">
+          <h2>Game</h2>
+          <p class="modal-requirements">
+            Ngành Game tập trung vào thiết kế, phát triển và sản xuất trò chơi
+            điện tử, bao gồm lập trình và thiết kế đồ họa.
+          </p>
+          <div class="modal-buttons">
+            <button class="detail-btn" onclick="showDetails('modal-game')">
+              Chi Tiết
+            </button>
+            <button class="close-btn" onclick="closeModal('modal-game')">
+              Đóng
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="why-choose-us">
+      <h2>Tại Sao Nên Chọn Chúng Tôi?</h2>
+      <div class="reasons-container">
+        <div class="reason-card">
+          <i class="fas fa-briefcase"></i>
+          <h3>Cơ Hội Việc Làm Lớn</h3>
+          <p>
+            Truy cập hơn 10.000 việc làm từ các ngành nghề đa dạng với số lượng
+            cập nhật hàng ngày.
+          </p>
+        </div>
+        <div class="reason-card">
+          <i class="fas fa-robot"></i>
+          <h3>Công Nghệ Tiên Tiến</h3>
+          <p>
+            Sử dụng AI và tự động hóa để hỗ trợ ứng viên tìm việc nhanh chóng và
+            chính xác.
+          </p>
+        </div>
+        <div class="reason-card">
+          <i class="fas fa-user-check"></i>
+          <h3>Hỗ Trợ Ứng Viên</h3>
+          <p>
+            Cung cấp hướng dẫn phỏng vấn, tối ưu CV, và tư vấn nghề nghiệp miễn
+            phí.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-left">
+          <h4>Liên Hệ</h4>
+          <p>SĐT: +84 123 456 789</p>
+          <p>Địa chỉ: 123 Đường Láng, Hà Nội, Việt Nam</p>
+        </div>
+        <div class="footer-center">
+          <h4>Liên Hệ Với Chúng Tôi</h4>
+          <div class="social-icons">
+            <a href="#" class="social-icon"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-right">
+          <h4>Liên Kết Nhanh</h4>
+          <div class="quick-links">
+            <a href="./home.html">Trang Chủ</a>
+            <a href="./nganhnghe.html">Công Việc</a>
+            <a href="./camnang.html">Cẩm Nang</a>
+            <a href="./topcv.html">Top cv</a>
+            <a href="./lienhe.html">Liên Hệ</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
